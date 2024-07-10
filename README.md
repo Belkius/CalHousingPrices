@@ -4,6 +4,15 @@
 This project is a simple example of a price prediction ML Model for california housing using an example dataset.
 The project is mostly for learning purposes and to get a better understanding of the machine learning process - mainly preprocessing and regression models.
 
+## Requirements
+- Python 3.6 or higher
+- Jupyter
+- Pandas
+- Numpy
+- Matplotlib
+- Scikit-learn
+- Scipy
+
 ## Dataset
 The data consists of 20640 instances and 10 attributes. The attributes are as follows:
 1. `longitude`: A measure of how far west a house is; a higher value is farther west
@@ -19,3 +28,25 @@ The data consists of 20640 instances and 10 attributes. The attributes are as fo
 
 Data used in this project is available under the following link (08.07.2024):
 https://raw.githubusercontent.com/ageron/handson-ml2/master/datasets/housing/housing.tgz
+
+## Models
+The project uses the following regression models:
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Support Vector Regressor
+
+## Preprocessing
+The preprocessing steps include:
+- Handling missing values
+- Encoding categorical data
+- Feature scaling
+- Splitting the dataset into training and test sets
+- Feature selection
+- Training the models
+- Evaluating the models
+- Hyperparameter tuning
+- Cross-validation
+- Feature importance
+- Model evaluation
+- Model comparison
